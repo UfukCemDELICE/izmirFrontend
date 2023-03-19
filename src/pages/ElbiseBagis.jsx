@@ -2,7 +2,7 @@ import React from 'react'
 
 const ElbiseBagis = () => {
   return (
-    <div>ElbiseBagis</div>
+    <div>Elbise Bağışı</div>
   )
 }
 export default ElbiseBagis

@@ -2,7 +2,7 @@ import React from 'react'
 
 const GidaBagis = () => {
   return (
-    <div>GidaBagis</div>
+    <div>Gıda Bağışı</div>
   )
 }
 export default GidaBagis

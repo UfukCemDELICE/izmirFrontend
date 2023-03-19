@@ -2,7 +2,7 @@ import React from 'react'
 
 const NakitBagis = () => {
   return (
-    <div>NakitBagis</div>
+    <div>Nakit Bağışı</div>
   )
 }
 export default NakitBagis

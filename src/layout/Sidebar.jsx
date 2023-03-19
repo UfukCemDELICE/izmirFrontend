@@ -4,7 +4,7 @@ import {
   Home,
   Person,
   Settings,
-  Storefront,
+  Storefront 
 } from "@mui/icons-material";
 import {
   Box,
@@ -17,10 +17,11 @@ import {
 import React from "react";
 import { Link } from "react-router-dom";
 export const Sidebar = () => {
+  
   return (
-    <Box flex={1} p={2} sx={{  display: { xs: "none", sm: "block" } }} >
+    <Box flex={1} p={2}  sx={{  display: { xs: "none", sm: "block" } }} >
       <Box position="fixed">
-        <List>
+        <List >
           <ListItem disablePadding>
             <ListItemButton component="a" as={Link} to="/">
               <ListItemIcon>
@@ -69,6 +70,7 @@ export const Sidebar = () => {
               <ListItemText primary="Settings" />
             </ListItemButton>
           </ListItem>
+          
         </List>
       </Box>
     </Box>

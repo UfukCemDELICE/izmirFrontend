@@ -47,7 +47,7 @@ export const Navbar = () => {
   return (
     <AppBar position="sticky">
       <StyledToolbar>
-        <Typography variant="h3"  color={'#81c784'} sx={{ display: { xs: "none", sm: "block" } }}>
+        <Typography variant="h2"  color={'#81c784'} sx={{fontWeight: 'bold'}}>
           LOGO
         </Typography>
         <Pets sx={{ display: { xs: "block", sm: "none" } }} />
@@ -56,11 +56,11 @@ export const Navbar = () => {
         </Search>
         <Button variant="contained" color='success'>Üye Ol</Button>
         <Icons color="#81c784">
-          <YouTubeIcon/>
-          <LinkedInIcon/>
-          <TwitterIcon/>
-          <InstagramIcon/>
           <FacebookIcon />
+          <InstagramIcon/>
+          <TwitterIcon/>
+          <LinkedInIcon/>
+          <YouTubeIcon/>
           </Icons>
           <Icons color="#9DA8C3">
           <Badge badgeContent={6} color="error">
